@@ -1,16 +1,39 @@
-// http://ionicframework.com/docs/theming/
+#navlefthead
+{
+    background-color: brown;
+    background: url('../assets/imgs/bg.jpg');
+    background-size: cover;
+}
 
+.hide-card
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+    text-align: center;
+}
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.
+.hide-card h2
+{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#fff;
+}
+
+.hide-card p
+{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-block-end: 15px;
+    color: #fff;
+}
+
+.hide-card img
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}

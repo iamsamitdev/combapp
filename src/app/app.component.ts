@@ -11,17 +11,17 @@ export class MyApp {
 
   rootPage: any = 'TabsPage';
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{title: string, component: any, icon:string}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
-      { title: 'Schedule', component: 'SideSchedulePage' },
-      { title: 'Portfolio', component: 'SidePortfolioPage' },
-      { title: 'Payment', component: 'SidePaymentPage' },
-      { title: 'Setting', component: 'SideSettingPage' }
+      { title: 'Schedule', component: 'SideSchedulePage' , icon:'calendar'},
+      { title: 'Portfolio', component: 'SidePortfolioPage' , icon:'albums'},
+      { title: 'Payment', component: 'SidePaymentPage', icon:'logo-bitcoin' },
+      { title: 'Setting', component: 'SideSettingPage', icon:'settings' }
     ];
 
   }
